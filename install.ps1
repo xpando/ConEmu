@@ -15,7 +15,7 @@ try {
 
     # download default ConEmu configuration
     if (!(test-path .\ConEmu.xml)) {
-        (new-object net.webclient).downloadstring('https://gist.githubusercontent.com/xpando/e6323178eb20a023a939/raw/808f9a18103c4cd6e1df08375217755872fba05e/ConEmu.xml') | out-file ConEmu.xml
+        (new-object net.webclient).downloadstring('https://gist.githubusercontent.com/xpando/e6323178eb20a023a939/raw/927b3bb9db8e8a68b5e3c57a778fb8913770c155/ConEmu.xml') | out-file ConEmu.xml
     }
 }
 finally {

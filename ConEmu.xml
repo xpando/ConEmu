@@ -278,7 +278,7 @@
 			<value name="ComSpec.Bits" type="hex" data="00"/>
 			<value name="ComSpec.UpdateEnv" type="hex" data="00"/>
 			<value name="ComSpec.EnvAddPath" type="hex" data="01"/>
-			<value name="ComSpec.Path" type="string" data="powershell.exe -nologo -noexit -noprofile -executionpolicy bypass -file &quot;%ConEmuBaseDir%\..\init.ps1&quot;"/>
+			<value name="ComSpec.Path" type="string" data="powershell.exe"/>
 			<value name="CTS.AutoCopy" type="hex" data="01"/>
 			<value name="CTS.EndOnTyping" type="hex" data="00"/>
 			<value name="CTS.Freeze" type="hex" data="00"/>
@@ -462,7 +462,7 @@
 				<key name="Task1" modified="2014-11-08 11:10:37" build="140814">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="*powershell.exe -nologo -noexit -noprofile -executionpolicy bypass -command &quot;invoke-expression '. ''%ConEmuBaseDir%\..\init.ps1'''&quot;"/>
+					<value name="Cmd1" type="string" data="*powershell.exe"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
