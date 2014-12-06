@@ -8,17 +8,17 @@
 <key name="Software">
 	<key name="ConEmu">
 		<!-- Main configuration (/config argument is not specified) -->
-		<key name=".Vanilla" modified="2014-11-15 09:35:55" build="140814">
+		<key name=".Vanilla" modified="2014-12-06 17:42:18" build="140814">
 			<value name="IconID" type="long" data="1"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
-			<value name="BackGround Image" type="string" data="%ConEmuDir%\Backgrounds\grill.jpg"/>
-			<value name="FontSize" type="ulong" data="18"/>
+			<value name="BackGround Image" type="string" data="%ConEmuDir%\Backgrounds\graphpaper.jpg"/>
+			<value name="FontSize" type="ulong" data="16"/>
 			<value name="FontSizeX" type="ulong" data="0"/>
 			<value name="TabMargins" type="hex" data="00,00,00,00,17,00,00,00,00,00,00,00,00,00,00,00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
 			<value name="CmdLineHistory" type="multi"></value>
 			
-			<value name="ExtendColors" type="hex" data="01"/>
+			<value name="ExtendColors" type="hex" data="00"/>
 			<value name="ExtendColorIdx" type="long" data="14"/>
 
 			<value name="FadeInactive" type="hex" data="00"/>
@@ -59,9 +59,9 @@
 			<value name="KeyboardHooks" type="hex" data="01"/>
 
 			<value name="AutoRegisterFonts" type="hex" data="01"/>
-			<value name="FontName" type="string" data="Consolas"/>
+			<value name="FontName" type="string" data="PragmataPro"/>
 			<value name="FontName2" type="string" data="Fixedsys"/>
-			<value name="bgImageDarker" type="hex" data="38"/>
+			<value name="bgImageDarker" type="hex" data="60"/>
 			<value name="AlphaValue" type="hex" data="ff"/>
 			<value name="UseColorKey" type="hex" data="00"/>
 			<value name="ColorKey" type="dword" data="00010101"/>
@@ -114,8 +114,8 @@
 			<value name="FontBold" type="hex" data="00"/>
 			<value name="FontItalic" type="hex" data="00"/>
 			<value name="Monospace" type="hex" data="02"/>
-			<value name="ConWnd Width" type="ulong" data="120"/>
-			<value name="ConWnd Height" type="ulong" data="40"/>
+			<value name="ConWnd Width" type="ulong" data="146"/>
+			<value name="ConWnd Height" type="ulong" data="46"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="ConWnd X" type="long" data="0"/>
 			<value name="ConWnd Y" type="long" data="0"/>
@@ -202,21 +202,21 @@
 			<value name="PanView.RestoreOnStartup" type="hex" data="01"/>
 
 			<!-- Console colors -->
-      <value name="ColorTable00" type="dword" data="00222827"/>
-      <value name="ColorTable01" type="dword" data="00ffab79"/>
-      <value name="ColorTable02" type="dword" data="0010b67b"/>
-      <value name="ColorTable03" type="dword" data="00c08000"/>
-      <value name="ColorTable04" type="dword" data="007f00ff"/>
-      <value name="ColorTable05" type="dword" data="00ac00ac"/>
-      <value name="ColorTable06" type="dword" data="000099cc"/>
-      <value name="ColorTable07" type="dword" data="00bbbbbb"/>
-      <value name="ColorTable08" type="dword" data="00999999"/>
-      <value name="ColorTable09" type="dword" data="00ffab79"/>
-      <value name="ColorTable10" type="dword" data="0021eca7"/>
-      <value name="ColorTable11" type="dword" data="00f6e352"/>
-      <value name="ColorTable12" type="dword" data="000000ff"/>
+      <value name="ColorTable00" type="dword" data="00000000"/>
+      <value name="ColorTable01" type="dword" data="006d5f36"/>
+      <value name="ColorTable02" type="dword" data="001a7d44"/>
+      <value name="ColorTable03" type="dword" data="008e7833"/>
+      <value name="ColorTable04" type="dword" data="002020aa"/>
+      <value name="ColorTable05" type="dword" data="00ff59ac"/>
+      <value name="ColorTable06" type="dword" data="0000c9ec"/>
+      <value name="ColorTable07" type="dword" data="00a8a8a8"/>
+      <value name="ColorTable08" type="dword" data="00696969"/>
+      <value name="ColorTable09" type="dword" data="00b86947"/>
+      <value name="ColorTable10" type="dword" data="0020e884"/>
+      <value name="ColorTable11" type="dword" data="00f7c15e"/>
+      <value name="ColorTable12" type="dword" data="003a0df2"/>
       <value name="ColorTable13" type="dword" data="00ff00ff"/>
-      <value name="ColorTable14" type="dword" data="007ee4ec"/>
+      <value name="ColorTable14" type="dword" data="0003f5fc"/>
       <value name="ColorTable15" type="dword" data="00ffffff"/>
       <value name="ColorTable16" type="dword" data="00000000"/>
       <value name="ColorTable17" type="dword" data="00800000"/>
@@ -457,9 +457,9 @@
 			<value name="KeyMacro32.Text" type="string" data=""/>
 			<value name="CTS.VkPrompt" type="hex" data="00"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-			<key name="Tasks" modified="2014-11-15 09:35:55" build="140814">
+			<key name="Tasks" modified="2014-12-06 17:42:19" build="140814">
 				<value name="Count" type="dword" data="00000001"/>
-				<key name="Task1" modified="2014-11-15 09:35:55" build="140814">
+				<key name="Task1" modified="2014-12-06 17:42:19" build="140814">
 					<value name="Name" type="string" data="{PowerShell}"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Cmd1" type="string" data="*powershell.exe -nologo"/>
@@ -525,7 +525,7 @@
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
 			</key>
-      <key name="Apps" modified="2014-11-15 09:35:55" build="140814">
+      <key name="Apps" modified="2014-12-06 17:42:19" build="140814">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 			<value name="CursorTypeActive" type="dword" data="00023240"/>
@@ -606,7 +606,7 @@
 			<value name="Key.JumpNextMonitor" type="dword" data="00105b27"/>
 			<value name="Key.TileToLeft" type="dword" data="00005b25"/>
 			<value name="Key.TileToRIght" type="dword" data="00005b27"/>
-      <key name="Colors" modified="2014-11-15 09:35:55" build="140814">
+      <key name="Colors" modified="2014-12-06 17:42:19" build="140814">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 			<value name="SaveCmdHistory" type="hex" data="00"/>
