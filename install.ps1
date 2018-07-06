@@ -7,7 +7,8 @@ try {
     # download and extract ConEmu
     if (!(test-path .\conemu)) {
         write-host "Installing ConEmu..." -foregroundcolor cyan
-        invoke-webrequest 'https://conemu.codeplex.com/downloads/get/891710' -usebasicparsing -usedefaultcredentials -outfile .\ConEmu.7z
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+        invoke-webrequest 'https://github.com/Maximus5/ConEmu/releases/download/v18.06.26/ConEmuPack.180626.7z' -usebasicparsing -usedefaultcredentials -outfile .\ConEmu.7z
         .\7za.exe x conemu.7z
         del conemu.7z
         write-host "done." -foregroundcolor green
